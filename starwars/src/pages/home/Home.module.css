@@ -1,0 +1,70 @@
+.page{
+    width: 100%;
+    height: 840px;
+    background: linear-gradient(180deg, #1F2A63 0%, #17002F 100%);
+}
+.firstText, .secondText{
+    position: absolute;
+    width: 506px;
+    height: 252px;
+    left: 10%;
+    right: 1.74%;
+    top: 20%;
+    bottom: 54.76%;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+
+.secondText{
+    position: absolute;
+    left: 10%;
+    right: 0%;
+    top: 56.73%;
+    bottom: 23.34%;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.thirdText{
+    position: absolute;
+    width: 116px;
+    height: 27px;
+    left: calc(50% - 116px/2 - 0.5px);
+    top: calc(50% - 27px/2 - 2.5px);
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+}
+
+.btn{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 231px;
+    height: 66px;
+    left: 10%;
+    top: 67%;
+    border-radius: 11px;
+}
+
+.img{
+    width: 600px;
+    height: 500px;
+    margin-left: 50%;
+}

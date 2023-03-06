@@ -1,0 +1,1 @@
+export const INIT_LOADING= 'INIT_LOADING';
