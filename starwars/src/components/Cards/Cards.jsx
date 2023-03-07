@@ -54,7 +54,7 @@ export default function Cards({ onPageChange, activePage, unitsData, units }) {
             <div
               className={styles.unitCard}
               id={idx}
-              key={crypto.randomUUID()}
+              key={idx}
               onClick={() =>
                 setModalShow({
                   name: unit.name,
@@ -74,8 +74,11 @@ export default function Cards({ onPageChange, activePage, unitsData, units }) {
               <div className={unit.mass === 'unknown' ? styles.unMass : styles.mass}>{unit.mass}</div>
               <div className={styles.textHeight}>Height</div>
               <div className={styles.textMass}>Mass</div>
-              <div className={styles.gender}>{unit.gender}</div>
-              <div className={styles.birth_year}>{unit.birth_year}</div>
+              <div className={unit.gender === 'male' ? styles.genderM : styles.genderN}>{unit.gender}</div>
+              <div className={unit.gender === 'female' ? styles.genderF : styles.genderN}>{unit.gender}</div>
+              <div className={unit.gender === 'hermaphrodite' ? styles.genderH : styles.genderN}>{unit.gender}</div>
+              <div className={unit.gender === 'n/a' ? styles.genderN : styles.genderN}>{unit.gender}</div>
+              <div className={unit.birth_year !== 'unknown' ? styles.birth_year : styles.genderN}>{unit.birth_year}</div>
             </div>
           ))}
         </div>

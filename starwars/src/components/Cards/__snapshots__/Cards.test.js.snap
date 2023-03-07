@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards component should render correctly with props 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="block"
+  >
+    <nav
+      aria-label="pagination navigation"
+      className="MuiPagination-root MuiPagination-outlined pagination css-1oj2twp-MuiPagination-root"
+    >
+      <ul
+        className="MuiPagination-ul css-wjh20t-MuiPagination-ul"
+      >
+        <li>
+          <button
+            aria-label="Go to previous page"
+            className="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded Mui-disabled MuiPaginationItem-previousNext css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root"
+            disabled={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={-1}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon"
+              data-testid="NavigateBeforeIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="page 1"
+            className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded Mui-selected MuiPaginationItem-page css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            1
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 2"
+            className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-page css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            2
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 3"
+            className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-page css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            3
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 4"
+            className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-page css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            4
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 5"
+            className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-page css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            5
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <div
+            className="MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-ellipsis css-1v2lvtn-MuiPaginationItem-root"
+          >
+            …
+          </div>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 9"
+            className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-page css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            9
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to next page"
+            className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-outlined MuiPaginationItem-rounded MuiPaginationItem-previousNext css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon"
+              data-testid="NavigateNextIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="dataList"
+    >
+      Color eye: 
+      <select
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          placeholder="All"
+          value="All"
+        >
+          All
+        </option>
+        <option
+          placeholder="All"
+          value="blue"
+        >
+          blue
+        </option>
+        <option
+          placeholder="All"
+          value="brown"
+        >
+          brown
+        </option>
+        <option
+          placeholder="All"
+          value="yellow"
+        >
+          yellow
+        </option>
+        <option
+          placeholder="All"
+          value="red"
+        >
+          red
+        </option>
+        <option
+          placeholder="All"
+          value="blue-gray"
+        >
+          blue-gray
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="searchFilter"
+  >
+    82
+     Peoples for you to choose your favorite
+  </div>
+  <div
+    className="cardsList"
+  >
+    <div
+      className="unitCard"
+      id={0}
+      onClick={[Function]}
+    >
+      <div
+        className="name"
+      >
+        Luke Skywalker
+      </div>
+      <div
+        className="height"
+      >
+        172
+      </div>
+      <div
+        className="mass"
+      >
+        77
+      </div>
+      <div
+        className="textHeight"
+      >
+        Height
+      </div>
+      <div
+        className="textMass"
+      >
+        Mass
+      </div>
+      <div
+        className="genderM"
+      >
+        male
+      </div>
+      <div
+        className="genderN"
+      >
+        male
+      </div>
+      <div
+        className="genderN"
+      >
+        male
+      </div>
+      <div
+        className="genderN"
+      >
+        male
+      </div>
+      <div
+        className="birth_year"
+      >
+        19BBY
+      </div>
+    </div>
+    <div
+      className="unitCard"
+      id={1}
+      onClick={[Function]}
+    >
+      <div
+        className="name"
+      >
+        C-3PO
+      </div>
+      <div
+        className="height"
+      >
+        167
+      </div>
+      <div
+        className="mass"
+      >
+        75
+      </div>
+      <div
+        className="textHeight"
+      >
+        Height
+      </div>
+      <div
+        className="textMass"
+      >
+        Mass
+      </div>
+      <div
+        className="genderN"
+      >
+        n/a
+      </div>
+      <div
+        className="genderN"
+      >
+        n/a
+      </div>
+      <div
+        className="genderN"
+      >
+        n/a
+      </div>
+      <div
+        className="genderN"
+      >
+        n/a
+      </div>
+      <div
+        className="birth_year"
+      >
+        112BBY
+      </div>
+    </div>
+  </div>
+</div>
+`;

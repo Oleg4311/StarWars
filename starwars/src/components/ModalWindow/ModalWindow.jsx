@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Modal from 'react-bootstrap/Modal';
 import styles from "./ModalWindow.module.css";
 
 export default function ModalWindow(props) {
-    console.log("🚀 ~ file: Cards.jsx:10 ~ ModalWindow ~ props:", props)
     
     
         return (
@@ -12,11 +11,16 @@ export default function ModalWindow(props) {
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
             centered
+            backdrop="static"
           >
+            <Modal.Header className={styles.modalHeader} closeButton/>
             <Modal.Body className={styles.modalBody}>
                 <img className={styles.img} src={`https://starwars-visualguide.com/assets/img/characters/${props.modalShow.imgId}.jpg`} alt="img" />
-                <div className={styles.gender}>{props.modalShow.gender}</div>
-                <div className={styles.birthYear}>{props.modalShow.birthYear}</div>
+                <div className={props.modalShow.gender === 'male' ? styles.genderM : styles.genderN}>{props.modalShow.gender}</div>
+                <div className={props.modalShow.gender === 'female' ? styles.genderF : styles.genderN}>{props.modalShow.gender}</div>
+                <div className={props.modalShow.gender === 'hermaphrodite' ? styles.genderH : styles.genderN}>{props.modalShow.gender}</div>
+                <div className={props.modalShow.gender === 'n/a' ? styles.genderN : styles.genderN}>{props.modalShow.gender}</div>
+                <div className={props.modalShow.birthYear !== 'unknown' ? styles.birthYear : styles.genderN}>{props.modalShow.birthYear}</div>
                 <div className={styles.name}>{props.modalShow.name}</div>
                 <div className={styles.block}>
                 <div className={styles.textHairColor}>Hair color:</div>

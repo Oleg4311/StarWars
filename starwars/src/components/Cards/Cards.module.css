@@ -160,7 +160,7 @@
     color: #4B4B4B;
 }
 
-.gender{
+.genderM, .genderF, .genderH{
     position: absolute;
     width: 75px;
     height: 16px;
@@ -173,9 +173,24 @@
     line-height: 14px;
     text-align: center;
     color: #212121;
-    background: #73D677;
     box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
     border-radius: 11px;
+}
+
+.genderM{
+    background: #73D677;
+}
+
+.genderF{
+    background: #C956FF;;
+}
+
+.genderH{
+    background: #F5DB13;
+}
+
+.genderN{
+    display: none;
 }
 
 .birth_year{
